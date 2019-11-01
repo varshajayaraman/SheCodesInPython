@@ -14,5 +14,4 @@ def strsearch(numList, key, x):
 
     return 1;
 
-if __name__ == "__main__":
-    strsearch([20,40,50,70,70,60], 20, 60)
+
