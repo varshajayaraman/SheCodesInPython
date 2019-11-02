@@ -27,15 +27,26 @@ def searchArr(nums, target, low, high):
 
 def findPivot(nums, low, high):
     if low<=high:
-        mid = math.floor(low + (high-low)/2)
-        if mid+1 < len(nums) and mid-1 >=0:
-            if nums[mid]<=nums[mid+1] and nums[mid]<nums[mid-1]:
+        mid = low + math.floor((high-low)/2)
+        print(low, mid, high)
+        if mid-1>=0:
+            if nums[mid]<nums[mid-1]:
                 return nums[mid]
             else:
-                x=findPivot(nums, mid+1, high)
-                if not x:
-                 return findPivot(nums, 0, mid-1)
-    # for i in range(len(nums)-1):
-    #     if nums[i]>nums[i+1]:
-    #         return i;
-    return -1
+                if nums[low]<=nums[mid]:
+                    if nums[low]<nums[high]:
+                        return nums[low]
+                    else:
+                        print(high)
+                        return findPivot(nums, mid+1, high)
+                else:
+                    return findPivot(nums, low+1, mid-1)
+        if mid+1<=high:
+            if nums[mid] < nums[mid+1]:
+                return nums[mid]
+            else:
+                return nums[mid+1]
+        else:
+            return nums[mid]
+
+    print(low, high)

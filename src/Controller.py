@@ -26,5 +26,5 @@ import src.E932_BeautifulArray
 # param_3 = obj.get(0,0)
 # param_2 = obj.snap()
 # print(param_3)
-print(src.M81_SortedArray.findPivot([2, 5, 6, 0, 0, 1, 1], 0, 7))
+print(src.M81_SortedArray.findPivot([2,3,4,5, 1], 0, 4))
 # src.E932_BeautifulArray.beautifulArray(4)
