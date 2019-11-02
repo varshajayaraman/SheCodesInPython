@@ -7,6 +7,8 @@ import src.E961_ElementRepeatingNTimes
 import src.E905_SortByParity
 import src.E108_TreeFromSortedArray
 import src.E1146_SnapshotArray
+import src.E81_SortedArray
+import src.E932_BeautifulArray
 
 
 #src.StringSearchWithAdjacentDifference.strsearch([20,40,50,70,70,60], 20, 60)
@@ -18,9 +20,11 @@ import src.E1146_SnapshotArray
 # src.E905_SortByParity.sortArrayByParity([3,1,2,4])
 # x=src.E108_TreeFromSortedArray.Solution()
 # x.SortedArrayToBST(nums=[-10,-3,0,5,9],low=0,high=5)
-obj = src.E1146_SnapshotArray.SnapshotArray(1)
-obj.set(0,4)
-param_2 = obj.snap()
-param_3 = obj.get(0,0)
-param_2 = obj.snap()
-print(param_3)
+# obj = src.E1146_SnapshotArray.SnapshotArray(1)
+# obj.set(0,4)
+# param_2 = obj.snap()
+# param_3 = obj.get(0,0)
+# param_2 = obj.snap()
+# print(param_3)
+print(src.E81_SortedArray.findPivot([2,5,6,0,0,1,1], 0, 7))
+# src.E932_BeautifulArray.beautifulArray(4)
