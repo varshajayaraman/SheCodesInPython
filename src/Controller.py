@@ -14,8 +14,10 @@ import src.BalancedSalesArray
 import src.GetSetGo
 import src.E1221_SPlitAStringInBalancedStrings
 import src.E942_DIStringMatch
+import src.M394_DecodeString
 
-src.E942_DIStringMatch.strMatch("DDI")
+src.M394_DecodeString.decode("100[l]")
+# src.E942_DIStringMatch.strMatch("DDI")
 # src.E1221_SPlitAStringInBalancedStrings.solution("RLLRLLRRLLLLLRRRLRRRLR")
 # src.GetSetGo.solution([2,3,15,1,16], 8, 0)
 # src.BalancedSalesArray.solution([1,2,3,4,6])
