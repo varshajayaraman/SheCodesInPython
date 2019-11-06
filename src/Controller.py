@@ -11,8 +11,10 @@ import src.M81_SortedArray
 import src.E932_BeautifulArray
 import src.M442_AllDuplicatesInAnArray
 import src.BalancedSalesArray
+import src.GetSetGo
 
-src.BalancedSalesArray.solution([1,2,3,4,6])
+src.GetSetGo.solution([2,3,15,1,16], 8, 0)
+# src.BalancedSalesArray.solution([1,2,3,4,6])
 #src.StringSearchWithAdjacentDifference.strsearch([20,40,50,70,70,60], 20, 60)
 #src.ArrangeAlternatePositiveNegative.arrange([])
 # src.E349_ArrayIntersection.intersection({1,2,2,1}, {2,2})
