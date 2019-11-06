@@ -13,8 +13,10 @@ import src.M442_AllDuplicatesInAnArray
 import src.BalancedSalesArray
 import src.GetSetGo
 import src.E1221_SPlitAStringInBalancedStrings
+import src.E942_DIStringMatch
 
-src.E1221_SPlitAStringInBalancedStrings.solution("RLLRLLRRLLLLLRRRLRRRLR")
+src.E942_DIStringMatch.strMatch("DDI")
+# src.E1221_SPlitAStringInBalancedStrings.solution("RLLRLLRRLLLLLRRRLRRRLR")
 # src.GetSetGo.solution([2,3,15,1,16], 8, 0)
 # src.BalancedSalesArray.solution([1,2,3,4,6])
 #src.StringSearchWithAdjacentDifference.strsearch([20,40,50,70,70,60], 20, 60)
