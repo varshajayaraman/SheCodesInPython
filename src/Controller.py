@@ -10,7 +10,9 @@ import src.E1146_SnapshotArray
 import src.M81_SortedArray
 import src.E932_BeautifulArray
 import src.M442_AllDuplicatesInAnArray
+import src.BalancedSalesArray
 
+src.BalancedSalesArray.solution([1,2,3,4,6])
 #src.StringSearchWithAdjacentDifference.strsearch([20,40,50,70,70,60], 20, 60)
 #src.ArrangeAlternatePositiveNegative.arrange([])
 # src.E349_ArrayIntersection.intersection({1,2,2,1}, {2,2})
@@ -28,4 +30,4 @@ import src.M442_AllDuplicatesInAnArray
 # print(param_3)
 # print(src.M81_SortedArray.findPivot([2,3,4,5, 1], 0, 4))
 # src.E932_BeautifulArray.beautifulArray(4)
-src.M442_AllDuplicatesInAnArray.findDuplicates([4,3,2,7,8,2,3,1])
+# src.M442_AllDuplicatesInAnArray.findDuplicates([4,3,2,7,8,2,3,1])
