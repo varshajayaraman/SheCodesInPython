@@ -15,8 +15,10 @@ import src.GetSetGo
 import src.E1221_SPlitAStringInBalancedStrings
 import src.E942_DIStringMatch
 import src.M394_DecodeString
+import src.E443_CompressString
 
-src.M394_DecodeString.decode("100[l]")
+src.E443_CompressString.compress(["o","o","o","o","o","o","o","o","o","o",])
+# src.M394_DecodeString.decode("100[l]")
 # src.E942_DIStringMatch.strMatch("DDI")
 # src.E1221_SPlitAStringInBalancedStrings.solution("RLLRLLRRLLLLLRRRLRRRLR")
 # src.GetSetGo.solution([2,3,15,1,16], 8, 0)
