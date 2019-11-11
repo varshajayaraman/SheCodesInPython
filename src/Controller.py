@@ -20,8 +20,13 @@ import src.WeirdFaculty_Twitter
 import src.ReachingPoints_Twitter
 import src.M984_StringWithoutAAAorBBB
 import src.M91_DecodeWays
+import src.M910_SmallestRange2
+import src.M130_SurroundRegions
 
-src.M91_DecodeWays.numDecodings("100")
+board = [['x','x','x','x'],['x','0','0','x'],['x','0','x','x'],['x','0','x','x']]
+src.M130_SurroundRegions.solve(board)
+# src.M910_SmallestRange2.sol([8,7,8], 5)
+# src.M91_DecodeWays.numDecodings("100")
 # print(src.M984_StringWithoutAAAorBBB.stringdevoid(2,3))
 # src.ReachingPoints_Twitter.wrapper(3,3,12,9)
 # src.WeirdFaculty_Twitter.leadingpt([1,1,1,0,1])

@@ -1,3 +1,4 @@
+
 def numDecodings(s):
     res = [1]
     if s[0] == '0':
