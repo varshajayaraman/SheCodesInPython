@@ -18,9 +18,12 @@ import src.M394_DecodeString
 import src.E443_CompressString
 import src.WeirdFaculty_Twitter
 import src.ReachingPoints_Twitter
+import src.M984_StringWithoutAAAorBBB
+import src.M91_DecodeWays
 
-
-src.ReachingPoints_Twitter.wrapper(3,3,12,9)
+src.M91_DecodeWays.numDecodings("100")
+# print(src.M984_StringWithoutAAAorBBB.stringdevoid(2,3))
+# src.ReachingPoints_Twitter.wrapper(3,3,12,9)
 # src.WeirdFaculty_Twitter.leadingpt([1,1,1,0,1])
 # src.E443_CompressString.compress(["o","o","o","o","o","o","o","o","o","o",])
 # src.M394_DecodeString.decode("100[l]")
