@@ -22,9 +22,12 @@ import src.M984_StringWithoutAAAorBBB
 import src.M91_DecodeWays
 import src.M910_SmallestRange2
 import src.M130_SurroundRegions
+import src.M207_CourseSchedule
 
-board = [['x','x','x','x'],['x','0','0','x'],['x','0','x','x'],['x','0','x','x']]
-src.M130_SurroundRegions.solve(board)
+
+print(src.M207_CourseSchedule.canFinish( 4, [[1,0],[2,1],[3,2],[1,3]]))
+# board = [['x','x','x','x'],['x','0','0','x'],['x','0','x','x'],['x','0','x','x']]
+# src.M130_SurroundRegions.solve(board)
 # src.M910_SmallestRange2.sol([8,7,8], 5)
 # src.M91_DecodeWays.numDecodings("100")
 # print(src.M984_StringWithoutAAAorBBB.stringdevoid(2,3))
