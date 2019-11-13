@@ -25,9 +25,9 @@ import src.M130_SurroundRegions
 import src.M207_CourseSchedule
 import src.M79_WordSearch
 
-board =[["A","B","C","E"],["S","F","E","S"],["A","D","E","E"]]
+board =[["a"]]
 
-print(src.M79_WordSearch.exist(board, "ABCESEEEFS"))
+print(src.M79_WordSearch.exist(board, "a"))
 # print(src.M207_CourseSchedule.canFinish( 4, [[1,0],[2,1],[3,2],[1,3]]))
 # board = [['x','x','x','x'],['x','0','0','x'],['x','0','x','x'],['x','0','x','x']]
 # src.M130_SurroundRegions.solve(board)
