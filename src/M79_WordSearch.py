@@ -5,7 +5,6 @@ def exist(board, word):
         row = len(board)
         col = len(board[0])
 
-        # queue.append((i * col) + j)
         strind += 1
         if strind == len(word):
             return True
