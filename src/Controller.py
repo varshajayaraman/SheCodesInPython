@@ -24,10 +24,11 @@ import src.M910_SmallestRange2
 import src.M130_SurroundRegions
 import src.M207_CourseSchedule
 import src.M79_WordSearch
+import src.M78_Subsets
 
-board =[["a"]]
-
-print(src.M79_WordSearch.exist(board, "a"))
+print(src.M78_Subsets.sol([1,2,3]))
+# board =[["a"]]
+# print(src.M79_WordSearch.exist(board, "a"))
 # print(src.M207_CourseSchedule.canFinish( 4, [[1,0],[2,1],[3,2],[1,3]]))
 # board = [['x','x','x','x'],['x','0','0','x'],['x','0','x','x'],['x','0','x','x']]
 # src.M130_SurroundRegions.solve(board)
