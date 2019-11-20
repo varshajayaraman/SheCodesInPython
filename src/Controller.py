@@ -24,9 +24,13 @@ import src.M910_SmallestRange2
 import src.M130_SurroundRegions
 import src.M207_CourseSchedule
 import src.M79_WordSearch
-import src.M78_Subsets
+# import src.M78_Subsets
+import src.Bloomberg_RemoveArrayElementsInGivenRanges
 
-print(src.M78_Subsets.sol([1,2,3]))
+arr = [-8, 3, -5, 1, 51, 56, 0, -5, 29, 43, 78, 75, 32, 76, 73, 76]
+intervals = [[5, 8], [10, 13], [3, 6], [20, 25]]
+print(src.Bloomberg_RemoveArrayElementsInGivenRanges.solution2(arr, intervals))
+# print(src.M78_Subsets.sol([1,2,3]))
 # board =[["a"]]
 # print(src.M79_WordSearch.exist(board, "a"))
 # print(src.M207_CourseSchedule.canFinish( 4, [[1,0],[2,1],[3,2],[1,3]]))
