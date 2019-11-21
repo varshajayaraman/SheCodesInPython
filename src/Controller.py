@@ -27,8 +27,10 @@ import src.M79_WordSearch
 # import src.M78_Subsets
 import src.Bloomberg_RemoveArrayElementsInGivenRanges
 import src.Bloomberg_MinStepsToGenerateNumber
+import src.Bloomberg_CandyCrush1D
 
-(src.Bloomberg_MinStepsToGenerateNumber.solution(3))
+src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
+# (src.Bloomberg_MinStepsToGenerateNumber.solution(3))
 # arr = [-8, 3, -5, 1, 51, 56, 0, -5, 29, 43, 78, 75, 32, 76, 73, 76]
 # intervals = [[5, 8], [10, 13], [3, 6], [20, 25]]
 # print(src.Bloomberg_RemoveArrayElementsInGivenRanges.solution2(arr, intervals))
