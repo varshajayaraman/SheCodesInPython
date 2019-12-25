@@ -1,4 +1,6 @@
+import math
 class Solution:
+    x = math.MAX;
     def coinChange(self, coins: List[int], amount: int) -> int:
         coins.sort()
         if len(coins) == 0:
