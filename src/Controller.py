@@ -30,7 +30,7 @@ import src.Bloomberg_MinStepsToGenerateNumber
 import src.Bloomberg_CandyCrush1D
 import src.Microsoft_NumbersWithEqualDigitSum
 
-src.Microsoft_NumbersWithEqualDigitSum.findNum([51,32,43])
+src.Microsoft_NumbersWithEqualDigitSum.findNum([42,33,60])
 
 # src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
 # (src.Bloomberg_MinStepsToGenerateNumber.solution(3))
