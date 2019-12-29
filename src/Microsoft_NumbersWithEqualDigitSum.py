@@ -4,12 +4,6 @@ def findNum(nums):
     enab = {}
     mSum=-1
 
-
-    # def equalSum(l, mSum):
-    #     for i in range(len(l)):
-    #         for j in range(i+1, len(l)):
-    #             mSum=max(mSum, l[i]+l[j])
-    #     return mSum
     def getSum(num):
         tot=0
         while num>0:

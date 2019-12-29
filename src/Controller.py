@@ -29,9 +29,11 @@ import src.Bloomberg_RemoveArrayElementsInGivenRanges
 import src.Bloomberg_MinStepsToGenerateNumber
 import src.Bloomberg_CandyCrush1D
 import src.Microsoft_NumbersWithEqualDigitSum
+import src.Microsoft_MinMovesToObtainStringWithout3IdentialChars
 
-src.Microsoft_NumbersWithEqualDigitSum.findNum([42,33,60])
 
+src.Microsoft_MinMovesToObtainStringWithout3IdentialChars.sol("aaabb")
+# src.Microsoft_NumbersWithEqualDigitSum.findNum([42,33,60])
 # src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
 # (src.Bloomberg_MinStepsToGenerateNumber.solution(3))
 # arr = [-8, 3, -5, 1, 51, 56, 0, -5, 29, 43, 78, 75, 32, 76, 73, 76]
