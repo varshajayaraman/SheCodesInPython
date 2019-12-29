@@ -28,8 +28,11 @@ import src.M79_WordSearch
 import src.Bloomberg_RemoveArrayElementsInGivenRanges
 import src.Bloomberg_MinStepsToGenerateNumber
 import src.Bloomberg_CandyCrush1D
+import src.Microsoft_NumbersWithEqualDigitSum
 
-src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
+src.Microsoft_NumbersWithEqualDigitSum.findNum([51,32,43])
+
+# src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
 # (src.Bloomberg_MinStepsToGenerateNumber.solution(3))
 # arr = [-8, 3, -5, 1, 51, 56, 0, -5, 29, 43, 78, 75, 32, 76, 73, 76]
 # intervals = [[5, 8], [10, 13], [3, 6], [20, 25]]
