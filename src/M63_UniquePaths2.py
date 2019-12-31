@@ -29,5 +29,5 @@ class Solution:
                             obstacleGrid[i][j]=obstacleGrid[i-1][j]+obstacleGrid[i][j-1]
         print(obstacleGrid)
         if obstacleGrid[r-1][c-1]==1:
-            return 0
+            return 0;
         return -obstacleGrid[r-1][c-1]
