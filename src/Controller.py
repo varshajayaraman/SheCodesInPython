@@ -30,9 +30,11 @@ import src.Bloomberg_MinStepsToGenerateNumber
 import src.Bloomberg_CandyCrush1D
 import src.Microsoft_NumbersWithEqualDigitSum
 import src.Microsoft_MinMovesToObtainStringWithout3IdentialChars
+import src.Microsoft_LexicographicallySmallestString
 
 
-src.Microsoft_MinMovesToObtainStringWithout3IdentialChars.sol("aaabb")
+src.Microsoft_LexicographicallySmallestString.sol("abczs")
+# src.Microsoft_MinMovesToObtainStringWithout3IdentialChars.sol("aaabb")
 # src.Microsoft_NumbersWithEqualDigitSum.findNum([42,33,60])
 # src.Bloomberg_CandyCrush1D.solution("baaabbbabbccccdbaaabbbabbdccccdaaabbbbaaabbbabbccccdbaaadbbbabbccccdaaabbb")
 # (src.Bloomberg_MinStepsToGenerateNumber.solution(3))
