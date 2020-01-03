@@ -1,10 +1,9 @@
 def sol(nums):
     nums = sorted(nums)
     c=0
-    t=nums[0]
     prev=0
     for x in range(1, len(nums)):
-        if nums[x]==t:
+        if nums[x]==nums[0]:
             continue
         elif nums[x]==nums[x-1]:
             c+=prev
