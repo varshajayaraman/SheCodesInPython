@@ -11,6 +11,6 @@ def sol(nums):
             print("Equal values ", x, prev, c)
         else:
             c += 1+prev
-            prev=1+prev
+            prev+=1
             print("Unequal values ", x, prev, c)
     print(c)
