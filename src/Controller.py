@@ -33,9 +33,12 @@ import src.Microsoft_MinMovesToObtainStringWithout3IdentialChars
 import src.Microsoft_LexicographicallySmallestString
 import src.Microsoft_LongestSUbstringWithout2ContiguousChars
 import src.Microsoft_MinDeletionsToMakeEachFreqUnique
+import src.Microsoft_MinStepsToMakePilesEquiHt
 
-src.Microsoft_MinDeletionsToMakeEachFreqUnique.sol("example")
-# src.Microsoft_LongestSUbstringWithout2ContiguousChars.sol("")
+
+src.Microsoft_MinStepsToMakePilesEquiHt.sol([4,4,2,5,5])
+# src.Microsoft_MinDeletionsToMakeEachFreqUnique.sol("example")
+# src.Microsoft_LongestSUbstringWithout2ContiguousChars.sol("abaaaa")
 # src.Microsoft_LexicographicallySmallestString.sol("abczs")
 # src.Microsoft_MinMovesToObtainStringWithout3IdentialChars.sol("aaabb")
 # src.Microsoft_NumbersWithEqualDigitSum.findNum([42,33,60])
