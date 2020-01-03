@@ -34,9 +34,10 @@ import src.Microsoft_LexicographicallySmallestString
 import src.Microsoft_LongestSUbstringWithout2ContiguousChars
 import src.Microsoft_MinDeletionsToMakeEachFreqUnique
 import src.Microsoft_MinStepsToMakePilesEquiHt
+import src.Microsoft_DayOfWeek
 
-
-src.Microsoft_MinStepsToMakePilesEquiHt.sol([4,4,2,5,5])
+src.Microsoft_DayOfWeek.sol("Wed", 2)
+# src.Microsoft_MinStepsToMakePilesEquiHt.sol([4,4,2,5,5])
 # src.Microsoft_MinDeletionsToMakeEachFreqUnique.sol("example")
 # src.Microsoft_LongestSUbstringWithout2ContiguousChars.sol("abaaaa")
 # src.Microsoft_LexicographicallySmallestString.sol("abczs")
