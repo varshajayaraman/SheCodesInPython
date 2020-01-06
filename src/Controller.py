@@ -37,8 +37,11 @@ import src.Microsoft_MinStepsToMakePilesEquiHt
 import src.Microsoft_DayOfWeek
 import src.Microsoft_MaxPossibleValueWith5
 import src.Microsoft_MaxInsertsWithoutaaa
+import src.Microsoft_LargestInteger
 
-src.Microsoft_MaxInsertsWithoutaaa.sol("bbaaba")
+
+src.Microsoft_LargestInteger.sol([1,2,3,-4])
+# src.Microsoft_MaxInsertsWithoutaaa.sol("bbaaba")
 # src.Microsoft_MaxPossibleValueWith5.sol(999)
 # src.Microsoft_DayOfWeek.sol("Wed", 2)
 # src.Microsoft_MinStepsToMakePilesEquiHt.sol([4,4,2,5,5])
