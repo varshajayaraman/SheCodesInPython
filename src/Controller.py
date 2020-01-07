@@ -40,8 +40,10 @@ import src.Microsoft_MaxInsertsWithoutaaa
 import src.Microsoft_LargestInteger
 import src.EPI_Arrays_EvenFirstOddToEnd
 import src.EPI_Arrays_DutchNationalFlagPartition
+import src.EPI_Arrays_DutchNationalFlagWith3Keys
 
-src.EPI_Arrays_DutchNationalFlagPartition.rearrange([0,1,2,2,1,2,3,2,3,3], 4)
+src.EPI_Arrays_DutchNationalFlagWith3Keys.rearrange([0,1,2,0,1,2,0,1,2])
+# src.EPI_Arrays_DutchNationalFlagPartition.rearrange([0,1,2,2,1,2,3,2,3,3], 4)
 # src.EPI_Arrays_EvenFirstOddToEnd.move([3,0,2])
 # src.Microsoft_LargestInteger.sol([1,2,3,-4])
 # src.Microsoft_MaxInsertsWithoutaaa.sol("bbaaba")
