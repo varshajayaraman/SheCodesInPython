@@ -43,10 +43,11 @@ import src.EPI_Arrays_DutchNationalFlagPartition
 import src.EPI_Arrays_DutchNationalFlagWith3Keys
 import src.EPI_Arrays_6_2_ArrayIntegerAddition
 import src.EPI_Arrays_6_2_Variant_Bitwise_Addition
+import src.EPI_Arrays_6_17_ComputeSpiralArray
 
 
-
-src.EPI_Arrays_6_2_Variant_Bitwise_Addition.addBits("100", "101")
+src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(10)
+# src.EPI_Arrays_6_2_Variant_Bitwise_Addition.addBits("100", "101")
 # src.EPI_Arrays_6_2_ArrayIntegerAddition.add([9,0,9,9,9])
 # src.EPI_Arrays_DutchNationalFlagWith3Keys.rearrange([0,1,2,0,1,2,0,1,2])
 # src.EPI_Arrays_DutchNationalFlagPartition.rearrange([0,1,2,2,1,2,3,2,3,3], 4)
