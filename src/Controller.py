@@ -46,9 +46,10 @@ import src.EPI_Arrays_6_2_Variant_Bitwise_Addition
 import src.EPI_Arrays_6_17_ComputeSpiralArray
 import src.EPI_Arrays_6_18_Rotate2DBy90Deg
 import src.EPI_Arrays_6_18_PascalsTriangle
+import src.EPI_Strings_7_3_AlphabetsToExcelStringConversion
 
-
-src.EPI_Arrays_6_18_PascalsTriangle.pascalstriangle(6)
+src.EPI_Strings_7_3_AlphabetsToExcelStringConversion.convert("aaz")
+# src.EPI_Arrays_6_18_PascalsTriangle.pascalstriangle(6)
 # arr = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 # src.EPI_Arrays_6_18_Rotate2DBy90Deg.rotate(arr)
 # src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(10)
