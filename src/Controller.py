@@ -52,7 +52,7 @@ import src.Amazon_FavouriteGenres
 userSongs = {
    "David": ["song1", "song2", "song3", "song4", "song8"],
    "Emma":  ["song5", "song6", "song7"],
-   "John": []
+   "John": ["song7"]
 }
 songGenres = {
    "Rock":    ["song1", "song3"],
@@ -62,7 +62,7 @@ songGenres = {
    "Jazz":    None,
    "Metal": []
 }
-src.Amazon_FavouriteGenres.findFavGenre(userSongs, songGenres)
+src.Amazon_FavouriteGenres.findfavGenre(userSongs, songGenres)
 # src.EPI_Strings_7_3_AlphabetsToExcelStringConversion.convert("aaz")
 # src.EPI_Arrays_6_18_PascalsTriangle.pascalstriangle(6)
 # arr = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
