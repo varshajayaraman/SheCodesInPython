@@ -49,15 +49,18 @@ import src.EPI_Arrays_6_18_PascalsTriangle
 import src.EPI_Strings_7_3_AlphabetsToExcelStringConversion
 import src.Amazon_FavouriteGenres
 import src.Amazon_TreasureIsland
+import src.Amazon_MinCostToConnectRopes
 
-inp=[['O','X'],
-     ['O', 'O'],
-     ['O','O']]
+
+src.Amazon_MinCostToConnectRopes.minCost([2,2,3,3])
+# inp=[['O','X'],
+#      ['O', 'O'],
+#      ['O','O']]
 # inp=[['O', 'O', 'O', 'O'],
 #  ['D', 'O', 'D', 'O'],
 #  ['O', 'O', 'O', 'O'],
 #  ['X', 'D', 'D', 'O']]
-src.Amazon_TreasureIsland.findTreasure(inp)
+# src.Amazon_TreasureIsland.findTreasure(inp)
 # userSongs = {
 #    "David": ["song1", "song2", "song3", "song4", "song8"],
 #    "Emma":  ["song5", "song6", "song7"],
