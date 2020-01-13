@@ -50,9 +50,12 @@ import src.EPI_Strings_7_3_AlphabetsToExcelStringConversion
 import src.Amazon_FavouriteGenres
 import src.Amazon_TreasureIsland
 import src.Amazon_MinCostToConnectRopes
+import src.Amazon_FindPairWithGivenSum
 
 
-src.Amazon_MinCostToConnectRopes.minCost([2,2,3,3])
+
+src.Amazon_FindPairWithGivenSum.findPair([1,2], 90)
+# src.Amazon_MinCostToConnectRopes.minCost([2,2,3,3])
 # inp=[['O','X'],
 #      ['O', 'O'],
 #      ['O','O']]
