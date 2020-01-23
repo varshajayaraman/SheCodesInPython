@@ -51,10 +51,12 @@ import src.Amazon_FavouriteGenres
 import src.Amazon_TreasureIsland
 import src.Amazon_MinCostToConnectRopes
 import src.Amazon_FindPairWithGivenSum
+import src.Nutanix_ColouredLoops
 
-
-
-src.Amazon_FindPairWithGivenSum.findPair([1,2], 90)
+# arr = [["B", "B", "B", "B", "B"], ["B", "G", "G", "G", "B"], ["B", "G", "B", "G", "B"], ["B", "G", "G", "G", "B"], ["B", "B", "B", "B", "B"]]
+arr=[["A", "A", "A", "A"],["A", "G", "A", "A"],["A", "A", "B", "A"]]
+src.Nutanix_ColouredLoops.findLoops(arr)
+# src.Amazon_FindPairWithGivenSum.findPair([1,2], 90)
 # src.Amazon_MinCostToConnectRopes.minCost([2,2,3,3])
 # inp=[['O','X'],
 #      ['O', 'O'],
