@@ -54,7 +54,7 @@ import src.Amazon_FindPairWithGivenSum
 import src.Nutanix_ColouredLoops
 
 # arr = [["B", "B", "B", "B", "B"], ["B", "G", "G", "G", "B"], ["B", "G", "B", "G", "B"], ["B", "G", "G", "G", "B"], ["B", "B", "B", "B", "B"]]
-arr=[["A", "A", "A", "A"],["A", "G", "A", "A"],["A", "A", "B", "A"]]
+arr=[["A", "A", "A", "A"],["A", "G", "B", "A"],["A", "A", "B", "A"]]
 src.Nutanix_ColouredLoops.findLoops(arr)
 # src.Amazon_FindPairWithGivenSum.findPair([1,2], 90)
 # src.Amazon_MinCostToConnectRopes.minCost([2,2,3,3])

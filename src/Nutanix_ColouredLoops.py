@@ -15,14 +15,7 @@ def rec(arr, i, j, row, col, currLoop):
         elif arr[i][j+1]==2 and (i, j+1) in visited.keys():
             print("Setting flag in: ", i,j+1)
             flag=True
-    if j>0:
-        if arr[i][j-1]==currLoop:
-            rec(arr, i, j-1, row, col, currLoop)
-            arr[i][j - 1] = currLoop
-            visited[(i, j-1)] = True
-        elif arr[i][j-1]==2 and (i,j-1) in visited.keys():
-            print("Setting flag in: ", i, j - 1)
-            flag=True
+
     if i<row-1:
         if arr[i+1][j]==currLoop:
             rec(arr, i+1, j, row, col, currLoop)
@@ -31,6 +24,16 @@ def rec(arr, i, j, row, col, currLoop):
         elif arr[i+1][j]==2 and (i+1,j) in visited.keys():
             print("Setting flag in: ", i + 1, j)
             flag=True
+
+    if j>0:
+        if arr[i][j-1]==currLoop:
+            rec(arr, i, j-1, row, col, currLoop)
+            arr[i][j - 1] = currLoop
+            visited[(i, j-1)] = True
+        elif arr[i][j-1]==2 and (i,j-1) in visited.keys():
+            print("Setting flag in: ", i, j - 1)
+            flag=True
+
     if i>0:
         if arr[i-1][j]==currLoop:
             rec(arr, i-1, j, row, col, currLoop)
