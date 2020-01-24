@@ -23,13 +23,13 @@ def findNearest(start, res):
 #         findNearestBin()
 
 
-relpaceChar(s):
-res = [1 for i in range(256)]
-res = findPrime(255)
-resS = ""
-for ch in s:
-    s = findNearest(ord(ch), res)
-    # s = findNearestBin(ord(ch)+1, 255, res, math.inf)
-    resS += chr(s)
+def relpaceChar(s):
+    res = [1 for i in range(256)]
+    res = findPrime(255)
+    resS = ""
+    for ch in s:
+        s = findNearest(ord(ch), res)
+        # s = findNearestBin(ord(ch)+1, 255, res, math.inf)
+        resS += chr(s)
 
-return resS
+    return resS
