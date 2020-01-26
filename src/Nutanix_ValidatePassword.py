@@ -5,7 +5,8 @@ def validatePassword(pwd):
     smallCharCount = 1
     blockCharCount = 1
 
-    for ch in pwd:
+    for i in range(len(pwd)):
+        ch = pwd[i]
         if ch.isalpha():
             charCount -= 1
             if ch.isupper():
@@ -16,6 +17,10 @@ def validatePassword(pwd):
             numCount -= 1
         else:
             spclCharCount -= 1
+        if i>=2:
+            if pwd[i]==pwd[i-1] and pwd[i]==pwd[i-2]:
+                return False
+
     return charCount <= 0 and spclCharCount <= 0 and numCount <= 0 and smallCharCount <= 0 and blockCharCount <= 0
 
 
