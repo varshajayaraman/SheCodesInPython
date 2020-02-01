@@ -87,7 +87,7 @@ import src.Nutanix_PaintFence
 # src.EPI_Arrays_6_18_PascalsTriangle.pascalstriangle(6)
 # arr = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 # src.EPI_Arrays_6_18_Rotate2DBy90Deg.rotate(arr)
-src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(10)
+src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(100)
 # src.EPI_Arrays_6_2_Variant_Bitwise_Addition.addBits("100", "101")
 # src.EPI_Arrays_6_2_ArrayIntegerAddition.add([9,0,9,9,9])
 # src.EPI_Arrays_DutchNationalFlagWith3Keys.rearrange([0,1,2,0,1,2,0,1,2])
