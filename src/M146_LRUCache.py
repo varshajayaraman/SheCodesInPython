@@ -19,7 +19,6 @@ class LRUCache:
         elif len(self.ref.keys())==self.capacity:
             self.ref.popitem(last=False)
         self.ref[key]=value
-        # print(self.ref)
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
