@@ -1,6 +1,4 @@
 import numpy as np
-
-
 class Solution:
     def knightProbability(self, N: int, K: int, r: int, c: int) -> float:
         global ans, direc
