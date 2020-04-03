@@ -29,6 +29,6 @@ class Solution:
             # print(nums[i], maxDisplaced)
             i -= 1
         r = i
-        print(l, r)
+        # print(l, r)
 
         return r - l + 1
