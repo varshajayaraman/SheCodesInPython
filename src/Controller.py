@@ -22,7 +22,7 @@ import src.M984_StringWithoutAAAorBBB
 import src.M91_DecodeWays
 import src.M910_SmallestRange2
 import src.M130_SurroundRegions
-import src.M207_CourseSchedule
+# import src.M207_CourseSchedule
 import src.M79_WordSearch
 # import src.M78_Subsets
 import src.Bloomberg_RemoveArrayElementsInGivenRanges
@@ -53,8 +53,10 @@ import src.Amazon_MinCostToConnectRopes
 import src.Amazon_FindPairWithGivenSum
 import src.Nutanix_ColouredLoops
 import src.Nutanix_PaintFence
+import src.LCS
 
 
+src.LCS.LCS("ACCGCGGGGAGAGACTGATATGGGCATCTCCTGTACGATCGCATCCGCCATCAGAAGGATAAATGCTCTCAAAGCCAGGCCTGGGGTACGCGACTTAAATGCCCGATAACAGGATCGGGGCATAGATACGCTTGGGCCCGACGCTAGCTCAATACACTTGTATCGTTTCGGCGAG", "ACGCGGAGGAAGCTGATAGTGGCATCTCCTTTGATCGATCTGACATCCGCGCATCAAAGGATAAATGCCAAAGCCGGTCCTGGGGTACGCGCGCTTAATCGCGAAATATACGATCGGGGATAGAACCCTTGGGCCAGAGCGACAGCTCAATACACGGTTCGTATTTCGGCGGAAG")
 # print(src.Nutanix_PaintFence.paintWays([1,1,1,0,1]))
 # arr = [["B", "B", "B", "B", "B"], ["B", "G", "G", "G", "B"], ["B", "G", "B", "G", "B"], ["B", "G", "G", "G", "B"], ["B", "B", "B", "B", "B"]]
 # arr=[["A", "A", "A", "A"],["A", "G", "B", "A"],["A", "A", "B", "A"]]
@@ -87,7 +89,7 @@ import src.Nutanix_PaintFence
 # src.EPI_Arrays_6_18_PascalsTriangle.pascalstriangle(6)
 # arr = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 # src.EPI_Arrays_6_18_Rotate2DBy90Deg.rotate(arr)
-src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(100)
+# src.EPI_Arrays_6_17_ComputeSpiralArray.spiralArray(100)
 # src.EPI_Arrays_6_2_Variant_Bitwise_Addition.addBits("100", "101")
 # src.EPI_Arrays_6_2_ArrayIntegerAddition.add([9,0,9,9,9])
 # src.EPI_Arrays_DutchNationalFlagWith3Keys.rearrange([0,1,2,0,1,2,0,1,2])
