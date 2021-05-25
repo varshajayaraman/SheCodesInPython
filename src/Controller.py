@@ -53,10 +53,18 @@ import src.Amazon_MinCostToConnectRopes
 import src.Amazon_FindPairWithGivenSum
 import src.Nutanix_ColouredLoops
 import src.Nutanix_PaintFence
-import src.LCS
+#import src.LCS
 import os.path
+# import src.Mathworks
+# import src.BushTest
+import src.PrathameshTest
 
-src.LCS.begin("E:\py")
+src.PrathameshTest.func([1,5,10])
+# src.PrathameshTest.func([1, 3, 4, 6], [4, 3, 3, 2])
+# src.BushTest.func(['r','r','b','b','d', 'e'])
+
+# src.Mathworks.fun([2,1,2], [1,2,3])
+#src.LCS.begin("E:\py")
 # src.LCS.LCS("ACCGCGGGGAGAGACTGATATGGGCATCTCCTGTACGATCGCATCCGCCATCAGAAGGATAAATGCTCTCAAAGCCAGGCCTGGGGTACGCGACTTAAATGCCCGATAACAGGATCGGGGCATAGATACGCTTGGGCCCGACGCTAGCTCAATACACTTGTATCGTTTCGGCGAG", "ACGCGGAGGAAGCTGATAGTGGCATCTCCTTTGATCGATCTGACATCCGCGCATCAAAGGATAAATGCCAAAGCCGGTCCTGGGGTACGCGCGCTTAATCGCGAAATATACGATCGGGGATAGAACCCTTGGGCCAGAGCGACAGCTCAATACACGGTTCGTATTTCGGCGGAAG")
 # print(src.Nutanix_PaintFence.paintWays([1,1,1,0,1]))
 # arr = [["B", "B", "B", "B", "B"], ["B", "G", "G", "G", "B"], ["B", "G", "B", "G", "B"], ["B", "G", "G", "G", "B"], ["B", "B", "B", "B", "B"]]
